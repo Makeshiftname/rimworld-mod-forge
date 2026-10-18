@@ -4,7 +4,8 @@ Makeshiftname 的 RimWorld 生产仓库，保存可发布的原创 mod 和补丁
 
 - 研究、分析记录和通用知识在 [`rimworld-mod-atlas`](https://github.com/Makeshiftname/rimworld-mod-atlas)。
 - 本仓库只保存生产代码、构建配置、测试和发布物。
-- fork 或源码改版放在独立的 `rimworld-mod-forks` 仓库（尚未创建；先不要和原创 mod 混在本仓库）。
+- fork 或源码改版放在本地 `rimworld-mod-forks` 仓库
+  （`F:\Git Repository\rimworld-mod-forks`，暂不推送；先不要和原创 mod 混在本仓库）。
 
 ## 目录
 
