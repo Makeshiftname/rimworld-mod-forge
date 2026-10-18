@@ -128,22 +128,24 @@ def _check_about(mod_root: Path, errors: list[str]) -> dict[str, object]:
 
 def _translation_keys(mod_root: Path, errors: list[str]) -> set[str]:
     keys: set[str] = set()
-    language_root = mod_root / "Languages"
-    if not language_root.is_dir():
-        return keys
-    for path in sorted(language_root.rglob("*.xml")):
-        root = _parse_xml(path, errors)
-        if root is None:
+    language_roots = [mod_root / "Languages", mod_root / "Common" / "Languages"]
+    for language_root in language_roots:
+        if not language_root.is_dir():
             continue
-        for node in root:
-            if node.tag:
-                keys.add(node.tag)
+        for path in sorted(language_root.rglob("*.xml")):
+            root = _parse_xml(path, errors)
+            if root is None:
+                continue
+            for node in root:
+                if node.tag:
+                    keys.add(node.tag)
     return keys
 
 
 def _def_names(mod_root: Path, errors: list[str]) -> set[str]:
     names: set[str] = set()
-    for path in sorted((mod_root / "Defs").rglob("*.xml")) if (mod_root / "Defs").is_dir() else []:
+    common_defs = mod_root / "Common" / "Defs"
+    for path in sorted(common_defs.rglob("*.xml")) if common_defs.is_dir() else []:
         root = _parse_xml(path, errors)
         if root is not None:
             names.update(
