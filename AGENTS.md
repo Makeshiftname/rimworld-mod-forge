@@ -33,12 +33,12 @@ fork 或源码改版不放本仓库，放在独立的 `rimworld-mod-forks` 仓�
 ## 常用命令
 
 ```powershell
-python shared/tests/check_mod.py mods/owned/<id>
-python -m unittest discover -s mods/owned/<id>/Tests -v
+python shared/tests/check_all.py
 powershell -File shared/build/build_mod.ps1 -ModPath mods/owned/<id> -GameVersion 1.6
 ```
 
 补丁 mod 同时验证目标存在和目标缺失两种情况。
+当前阶段见 [`docs/STATUS.md`](docs/STATUS.md)。
 
 ## Atlas 回写
 

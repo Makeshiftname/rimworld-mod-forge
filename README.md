@@ -33,9 +33,10 @@ docs/             开发、发布和决策文档
 ## 验证
 
 ```powershell
-python shared/tests/check_mod.py mods/owned/rimtalk-persona-traits
-python -m unittest discover -s mods/owned/rimtalk-persona-traits/Tests -v
+python shared/tests/check_all.py
 ```
+
+当前阶段与待办见 [`docs/STATUS.md`](docs/STATUS.md)。
 
 ## 许可
 

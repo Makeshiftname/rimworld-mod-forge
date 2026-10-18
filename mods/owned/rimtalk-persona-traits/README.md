@@ -82,6 +82,6 @@ RimTalk 对话（Full 信息级别）确认 `Traits:` 行包含本包特质描�
 
 ## 相关参考
 
-- [RimTalk 提示词注入机制](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/%E6%94%B6%E9%9B%86/80-standalone-RimTalk/Source/Service/ContextBuilder.cs)（`GetTraitsContext`）
-- [TraitDef 结构参考](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/%E6%94%B6%E9%9B%86/82-patch-HautsAddedTraits/1.6/Defs/Traits.xml)
+- [RimTalk 提示词注入机制](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/%E6%94%B6%E9%9B%86/80-standalone-RimTalk/Source/Service/ContextBuilder.cs)（`GetTraitsContext`）
+- [TraitDef 结构参考](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/%E6%94%B6%E9%9B%86/82-patch-HautsAddedTraits/1.6/Defs/Traits.xml)
 - [Atlas 知识库](https://github.com/Makeshiftname/rimworld-mod-atlas)

@@ -2,12 +2,12 @@
 
 本文是生产 mod 的总流程。具体技术细节继续查阅 Atlas：
 
-- 骨架与日志：[project-templates.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/docs/knowledge/guides/project-templates.md)
-- XML/Defs：[xml-defs-and-patches.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/docs/knowledge/guides/xml-defs-and-patches.md)
-- Harmony 补丁：[harmony-patching.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/docs/knowledge/guides/harmony-patching.md)
-- 跨版本结构：[cross-version-structure.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/docs/knowledge/guides/cross-version-structure.md)
-- 测试：[testing-and-validation.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/docs/knowledge/guides/testing-and-validation.md)
-- 发布与许可：[publishing-and-release.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/ae09d37/docs/knowledge/guides/publishing-and-release.md)
+- 骨架与日志：[project-templates.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/docs/knowledge/guides/project-templates.md)
+- XML/Defs：[xml-defs-and-patches.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/docs/knowledge/guides/xml-defs-and-patches.md)
+- Harmony 补丁：[harmony-patching.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/docs/knowledge/guides/harmony-patching.md)
+- 跨版本结构：[cross-version-structure.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/docs/knowledge/guides/cross-version-structure.md)
+- 测试：[testing-and-validation.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/docs/knowledge/guides/testing-and-validation.md)
+- 发布与许可：[publishing-and-release.md](https://github.com/Makeshiftname/rimworld-mod-atlas/blob/8552cfc/docs/knowledge/guides/publishing-and-release.md)
 
 ## 1. 先选择模式
 
