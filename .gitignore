@@ -1,0 +1,18 @@
+# Build output and local IDE state
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+*.pdb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local logs and machine-specific configuration
+*.log
+.env
+.env.*
+
+# Do not ignore Assemblies/*.dll: release builds are intentionally committed.
